@@ -15,28 +15,69 @@
     <style>
        .font-manrope {
             font-family: "Manrope", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: <weight>;
             font-style: normal;
         } 
     </style>
 </head>
-<body class="font-manrope">
-    <header>
-        <section>
+<body class="font-manrope p-8">
+    <header class="lg:max-w-6xl m-auto mt-20 ">
+        <section class="md:flex items-center">
             <div class="content">
-                <h1 class="">It's good <br> 
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-8 leading-tight">It's good <br> 
                     tea time at The <br> Tea House</h1>
-                    <p>Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                    <button>Explore More <img src="./images/arrow.png" alt=""></button>
+                    <p class="text-lg text-[#777777] mb-8">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <button class="p-5 bg-gradient-to-r from-[#FF0000] to-[#FF8938] text-xl text-white font-bold rounded-xl">Explore More <i class="fa-solid fa-arrow-right"></i></button>
             </div>
-            <div class="image">
+            <!-- banner image -->
+            <div class="image relative mt-20 md:mt-0">
                 <img src="./images/banner.png" alt="">
+                <!-- ratting -->
+                <div class="absolute flex items-center top-52 lg:top-80 lg:left-20 shadow-lg bg-white rounded-xl p-4">
+                    <i class="fa-solid fa-star mr-3 text-2xl text-[#FFC850]"></i>
+                    <div class="">
+                        <h4 class="text-3xl text-[#1C1C1C] font-bold">5.00</h4>
+                        <p class="text-[#777777]">Trust Pilot Ratings</p>
+                    </div>
+                </div>
             </div>
         </section>
     </header>
-    <main>
+    <main class="max-w-6xl m-auto">
+        <!-- featured products section starts here -->
+         <section class="text-center mt-28 mb-28">
+            <!-- title -->
+             <h2 class="text-2xl md:text-4xl font-bold mb-6 md:mb-8">Our Featured Products</h2>
+             <p class="md:max-w-3xl mx-auto mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
 
+             <!-- card container -->
+              <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <!-- card 1 -->
+                <div class=" justify-center items-center bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400] rounded-xl py-8 px-12 mb-5 shadow">
+                    <img class="mx-auto " src="./images/tea-1.png" alt="">
+                    <h3 class="text-xl md:text-2xl font-bold mt-8 mb-4">Milk Tea</h3>
+                    <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- card 2 -->
+                <div class=" justify-center items-center bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400] rounded-xl py-8 px-12 mb-5 shadow">
+                    <img class="mx-auto " src="./images/tea-2.png" alt="">
+                    <h3 class="text-xl md:text-2xl font-bold mt-8 mb-4">Black Tea</h3>
+                    <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- card 1 -->
+                <div class=" justify-center items-center bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400] rounded-xl py-8 px-12 mb-5 shadow">
+                    <img class="mx-auto " src="./images/tea-3.png" alt="">
+                    <h3 class="text-xl md:text-2xl font-bold mt-8 mb-4">Lemon Tea</h3>
+                    <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+                </div>
+                <!-- card 1 -->
+                <div class=" justify-center items-center bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400] rounded-xl py-8 px-12 mb-5 shadow">
+                    <img class="mx-auto " src="./images/tea-4.png" alt="">
+                    <h3 class="text-xl md:text-2xl font-bold mt-8 mb-4">Green Tea</h3>
+                    <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+                </div>
+               
+              </div>
+         </section>
     </main>
     <footer>
 

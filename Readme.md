@@ -2,8 +2,8 @@
 
 A modern, responsive (Single page) website for a premium tea house built with HTML, TailwindCSS, and FontAwesome.
 
-![Tea House Banner](https://tea-house-website.netlify.app/)
-[Website live link]()
+![Tea House Banner](images/banner.png)
+[Website live link](https://tea-house-website.netlify.app)
 
 ## ✨ Features
 
